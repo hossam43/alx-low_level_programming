@@ -10,9 +10,9 @@ int ch;
 for (ch = 'a'; ch <= 'z'; ch++)
 {
 if (ch == 'e' || ch == 'q')
-{ch++;}
+{ch++; }
 putchar(ch);
-putchar('\n');
 }
+printf("\n");
 return (0);
 }
