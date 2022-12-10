@@ -13,6 +13,6 @@ if (ch == 'e' || ch == 'q')
 {ch++; }
 putchar(ch);
 }
-putchar("\n");
+printf("\n");
 return (0);
 }
