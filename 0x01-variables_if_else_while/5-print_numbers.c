@@ -6,12 +6,11 @@
  */
 int main(void)
 {
-int ch;
-for (ch = 'a'; ch <= 'z'; ch++)
+int n,baseTen;
+for (n = 0; n < 10 ; n++)
 {
-if (ch == 'e' || ch == 'q')
-{ch++; }
-putchar(ch);
+baseTen = n % 10;
+printf ("%d",baseTen);
 }
 printf("\n");
 return (0);
