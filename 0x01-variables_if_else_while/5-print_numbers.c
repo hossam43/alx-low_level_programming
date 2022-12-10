@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-int n,baseTen;
+int n, baseTen;
 for (n = 0; n < 10 ; n++)
 {
 baseTen = n % 10;
-printf ("%d",baseTen);
+printf("%d", baseTen);
 }
 printf("\n");
 return (0);
