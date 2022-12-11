@@ -13,9 +13,13 @@ for (ch = '0'; ch <= '9'; ch++)
 	{
 		for (oh = '0'; oh <= '9'; oh++)
 		{	
-			for (sh = '0'; sh <= '9'; sh++)
+			for (sh = '0'; sh <= '9'; ++sh)
 			{
-			if (ch == kh && oh == sh || ch == '0' && kh == '0' || oh > kh && sh > kh && oh >= ch)
+			if (ch == '0' && kh == '0' && oh == '0' && sh == '0')
+			{
+			continue;
+			}
+			else if (ch == '0' && kh == '0' || oh > kh && sh > kh && oh >= ch)
 			{	
 			putchar(ch);
 			putchar(kh);
