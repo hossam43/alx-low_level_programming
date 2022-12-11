@@ -11,9 +11,9 @@ for (ch = '0'; ch <= '8'; ch++)
 {
 	for (kh = '1'; kh <= '9'; kh++)
 	{
-		for (oh = '2'; oh <= '9'; oh ++ )
+		for (oh = '2'; oh <= '9'; oh++)
 		{
-			if (ch < kh && kh < oh )
+			if (ch < kh && kh < oh)
 			{
 			putchar(ch);
 			putchar(kh);
