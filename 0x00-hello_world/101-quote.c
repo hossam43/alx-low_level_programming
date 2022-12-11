@@ -5,7 +5,7 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{int fd2 = 2;
-write(fd2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+{int fd = 2;
+write(fd, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 return (1);
 }
