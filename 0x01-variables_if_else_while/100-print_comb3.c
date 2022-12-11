@@ -15,7 +15,7 @@ for (ch = '0'; ch <= '8'; ch++)
 	{
 	putchar(ch);
 	putchar(kh);
-	if(ch != '8')
+	if (ch != '8')
 	{
 	putchar(',');
 	putchar(' ');
