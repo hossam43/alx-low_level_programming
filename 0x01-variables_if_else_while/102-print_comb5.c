@@ -19,7 +19,7 @@ for (ch = '0'; ch <= '9'; ch++)
 			{
 			continue;
 			}
-			else if (ch == '0' && kh == '0' || oh > kh && sh > kh && oh >= ch)
+			else if ( ( ch == '0' && kh == '0') || (oh > kh && sh > kh && oh >= ch) )
 			{	
 			putchar(ch);
 			putchar(kh);
