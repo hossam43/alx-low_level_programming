@@ -6,31 +6,20 @@
  */
 int main(void)
 {
-int ch, kh, oh, sh;
-for (ch = '0'; ch <= '9'; ch++)
+int ch, kh;
+for (ch = 0; ch <= 98; ch++)
 {
-	for (kh = '0'; kh <= '9'; kh++)
-	{
-		for (oh = '0'; oh <= '9'; oh++)
-		{	
-			for (sh = '0'; sh <= '9'; ++sh)
-			{
-			if (ch == '0' && kh == '0' && oh == '0' && sh == '0')
-			{
-			continue;
-			}
-			else if ( ( ch == '0' && kh == '0') || (oh > kh && sh > kh && oh >= ch) )
-			{	
-			putchar(ch);
-			putchar(kh);
+	for (kh = ch + 1; kh <= 99; kh++)
+	{			
+			putchar((ch / 10) + '0');
+			putchar((ch % 10) + '0');
 			putchar(' ');
-			putchar(oh);
-			putchar(sh);
+			putchar((kh / 10) + '0');
+			putchar((kh % 10) + '0');
+			if (ch == 98 && kh == 99)
+				continue;
 			putchar (',');
 			putchar (' ');
-			}
-			}
-		}
 	}
 }
 putchar('\n');
