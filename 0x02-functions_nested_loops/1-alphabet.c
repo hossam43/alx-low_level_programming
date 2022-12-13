@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success).
+ * print_alphabet - to print all alphsbet.
+ * Return: Nothing.
  */
 void print_alphabet(void)
 {
