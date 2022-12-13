@@ -5,12 +5,18 @@
  */
 void print_alphabet_x10(void)
 {
-int ch = 97, kh = 122;
-while (ch <= kh)
+int ch, counter;
+for (counter = 0; counter < 10; counter++)
 {
-_putchar(ch);
-ch++;
-}
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+	_putchar (ch);
+	}
+	if (ch == 'z')
+	{
+	ch = 'a';
+	}
 _putchar('\n');
+}
 return;
 }
