@@ -3,10 +3,9 @@
 /**
  * main - Enter point
  * Return: Alwats 0 (Success)
- * */
-int main (void)
+ */
+int main(void)
 {
-
-printf ("%s\n",put);
+printf ("%s\n", put);
 return(0);
 }
