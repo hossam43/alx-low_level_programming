@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print 9 table
- * Return: 1 for lowercase values.
+ *times_table: print 9 table
+ *Return: 1 for lowercase values.
  */
 void times_table(void)
 {
