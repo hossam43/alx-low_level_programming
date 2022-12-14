@@ -1,8 +1,8 @@
-#This is the third C project
+<h1>The third C project</h1>
 
-##Learn more about nested loops and Functions
+<h2>Learn more about nested loops and Functions</h2>
 
-###Learning Objectives
+Learning Objectives
 
 - What are nested loops and how to use them
 - What is a function and how do you use functions
