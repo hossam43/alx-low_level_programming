@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * add - Adds two integers.
+ * print_to_98 - increment or decrement the entered number till 98.
  * @n: The start of counting.
  *
  * Return: The result of the addition.
