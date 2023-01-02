@@ -23,8 +23,8 @@ date=$(date +%Y-%m-%d)
 cat > README.md << EOF
 ### Author: $name
 ### Date: $date
-## Project Name: $project_name
-# Description: 
+### Project Name: $project_name
+## Description: 
 
 EOF
 
@@ -41,7 +41,7 @@ while true; do
 done
 
 # write the concepts as a list
-echo "## Today Project Concepts" >> README.md
+echo "### Today Project Concepts" >> README.md
 echo "" >> README.md
 for concept in "${concepts[@]}"; do
   echo "- $concept" >> README.md
@@ -60,7 +60,7 @@ while true; do
 done
 
 # write the objectives as a list
-echo "## Today Project Objectives" >> README.md
+echo "### Today Project Objectives" >> README.md
 echo "" >> README.md
 for objective in "${objectives[@]}"; do
   echo "- $objective" >> README.md
