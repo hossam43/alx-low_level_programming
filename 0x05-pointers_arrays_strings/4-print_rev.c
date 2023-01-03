@@ -13,7 +13,7 @@ while (*p != '\0')
 {
 p++;
 }
-p--
+p--;
 while (p >= s)
 {
 putchar(*p);
