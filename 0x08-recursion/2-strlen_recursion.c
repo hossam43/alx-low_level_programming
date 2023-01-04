@@ -17,6 +17,6 @@ return 0;
 }
 e = 0;
 e++;
-e += _strlen_recursion(b + 1);
+e += _strlen_recursion(s + 1);
 return e;
 }
