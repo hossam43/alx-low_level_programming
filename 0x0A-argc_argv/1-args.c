@@ -1,24 +1,15 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - Prints the name of the file followed by new line
- * @argc: number of argument entered in the command line
- * @argv: array argument value
+ * main - Prints the number of arguments passed to it.
+ * @argc: The number of arguments supplied to the program.
+ * @argv: An array of pointers to the arguments.
  *
  * Return: Always 0.
  */
-
-int main(int argc, char *argv[])
+int main(int argc, char __attribute__((__unused__)) *argv[])
 {
-	int i, counter;
-	counter = 0;
-	for (i = 0; i < argc; i++)
-	{
-		printf("%d\n",argc);
-		sum += atoi(argv[i]);
-	}
-	printf("%d\n",counter);
+	printf("%d\n", argc - 1);
 
 	return (0);
 }
