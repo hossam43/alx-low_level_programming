@@ -2,8 +2,8 @@
 
 /**
  * main - Prints the name of the file followed by new line
- * @argc - number of argument entered in the command line
- * @argv - array argument value
+ * @argc: number of argument entered in the command line
+ * @argv: array argument value
  *
  * Return: Always 0.
  */
