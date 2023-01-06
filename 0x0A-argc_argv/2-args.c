@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - Prints the name of the file followed by new line
@@ -11,14 +10,11 @@
 
 int main(int argc, char *argv[])
 {
-	int i, counter;
-	counter = 0;
+	int i;
 	for (i = 0; i < argc; i++)
 	{
-		printf("%d\n",argc);
-		sum += atoi(argv[i]);
+		printf("%s\n",argv[i]);
 	}
-	printf("%d\n",counter);
 
 	return (0);
 }
