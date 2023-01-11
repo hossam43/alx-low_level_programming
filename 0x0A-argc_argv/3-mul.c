@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 {
 int num, mul = 1, argvNum;
 
-if (argc < 2)
+if (argc != 3)
 {
 printf("Error\n");
 
@@ -25,7 +25,6 @@ return (1);
 for (num = 1; num < argc; num++)
 {
 argvNum = strtol(argv[num], NULL, 10);
-
 mul *= argvNum;
 }
 
