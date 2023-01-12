@@ -20,7 +20,7 @@ if (size == 0)
 return (NULL);
 }
 t = malloc(size * sizeof(char));
-for (i = 1; i < size; i++)
+for (i = 0; i < size; i++)
 {
 t[i] = c;
 _putchar(t[i]);
