@@ -26,6 +26,5 @@ t[i] = c;
 _putchar(t[i]);
 i++;
 }
-free(t);
 return (t);
 }
