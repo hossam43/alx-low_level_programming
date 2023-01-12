@@ -16,7 +16,7 @@ if (size == 0)
 return (NULL);
 }
 char *t;
-int i = 1;
+unsigned int i = 1;
 
 t = malloc(size * sizeof(char));
 
