@@ -25,6 +25,5 @@ for (i = 0; i < size; i++)
 {
 t[i] = str[i];
 }
-free(t);
 return (t);
 }
