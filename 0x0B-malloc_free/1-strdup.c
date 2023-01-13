@@ -15,7 +15,7 @@ int i;
 char *t;
 int size = strlen(str);
 
-if (str == NULL)
+if (t == NULL)
 {
 return (NULL);
 }
