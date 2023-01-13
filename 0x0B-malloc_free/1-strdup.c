@@ -15,11 +15,15 @@ int i;
 char *t;
 int size = strlen(str);
 
-if (str == NULL || t == NULL)
+if (str == NULL)
 {
 return (NULL);
 }
 t = malloc((size + 1) * sizeof(char));
+if (t == NULL)
+{
+return (NULL);
+}
 for (i = 0; i < size; i++)
 {
 t[i] = str[i];
