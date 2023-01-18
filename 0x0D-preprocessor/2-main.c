@@ -1,6 +1,5 @@
 #include <stdio.h>
-#define __FILE__
-#endif
+#include <string.h>
 /**
  * main - Entry point
  * Return: Always 0 (Success)
