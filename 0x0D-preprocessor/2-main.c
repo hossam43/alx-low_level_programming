@@ -6,6 +6,6 @@
  */
 int main()
 {
-printf("%s\n", strrchr(__FILE__, '/') + 1);
+printf("%s\n", strrchr(__FILE__));
 return (0);
 }
